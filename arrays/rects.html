@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <script src="../p5.min.js"></script>
+</head>
+<body>
+  <script>
+
+  let toggle = true;
+
+  function setup() {
+    createCanvas(800, 300);
+    rectMode(CENTER);
+  }
+
+  function draw() {
+    if (toggle) {
+      background(1, 186, 240);
+    }
+    else {
+      background(250, 150, 50);
+    }
+
+    let x = width /2;
+    let y = height /2;
+    let size = 200;
+
+    fill(237, 34, 93);
+    noStroke();
+    ellipse(x, y, size, size);
+
+    fill(255);
+    rect(x, y, size*0.75, size*0.15);
+  }
+
+  function mousePressed() {
+    toggle = !toggle;
+  }
+
+  </script>
+</body>
+</html>
