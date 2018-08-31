@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <script src="../p5.min.js"></script>
+</head>
+<body>
+  <script>
+    var sizes =[200, 150,100, 50, 25];
+    function setup() {
+      createCanvas(800, 300);
+    }
+
+    function draw() {
+      fill(237, 34, 93);
+      strokeWeight(2);
+
+      for (var i=0; i<sizes.length; i++) {
+        ellipse(width/2, height/2, sizes[i], sizes[i]);
+      }
+    }
+
+  </script>
+</body>
+</html>
