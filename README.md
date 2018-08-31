@@ -5,4 +5,4 @@
 
 ## Concepts
 *   ### [arrays](https://github.com/hfaara18/learning-p5.js/tree/master/arrays)
-    **_Includes html files that uses graphic components to help master thconcept of arrays_**
+    **_Includes html files that uses graphic components to help master the concept of arrays_**
