@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Countdown</title>
+  <script src="../p5.min.js"></script>
+</head>
+<body>
+  <script>
+
+    function setup() {
+      createCanvas(800, 300);
+      textAlign(CENTER, CENTER);
+      frameRate(3);
+    }
+
+    function draw() {
+      background(237, 34, 93);
+      fill(255);
+      textSize(45);
+      var numbers = [];
+      var message = "Launch!";
+
+
+      for (var i=10; i>=0; i--) {
+        numbers.push(i);
+      }
+
+      //numbers, message = countdown(10, "Launch!");
+      var currentIndex = frameCount % numbers.length;
+      var currentNumber = numbers[currentIndex];
+
+        if (currentNumber === 0) {
+          text(message, width/2, height/2);
+        }
+        else {
+          text(currentNumber, width/2, height/2);
+          //console.log(numbers[i]);
+          //console.log(4);
+        }
+      //}
+
+  //  console.log(countdown(8, "dfhdkgf"));
+
+
+    }
+
+  </script>
+</body>
+</html>
