@@ -8,5 +8,5 @@
     **_Includes html files that uses 2D graphic components to help master the concept of arrays_**
     
 *   ### [shapes](https://github.com/hfaara18/learning-p5.js/tree/master/shapes)
-    **_Includes html files that uses 2D graphic components to help master how to render shapes onto the**
-    **html canvas_**
+    **_Includes html files that uses 2D graphic components to help master how to render shapes onto the_**
+    **_html canvas_**
