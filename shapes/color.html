@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Color</title>
+  <script src="p5.min.js"></script>
+</head>
+<body>
+  <script>
+    function setup() {
+      let canvas = createCanvas(800, 400);
+      background(220);
+
+    }
+
+    function draw() {
+
+      // circle 1
+      fill(51, 51, 51);
+      strokeWeight(2);
+      stroke(75);
+      ellipse(400, 200, 300, 300);
+
+      // circle 2
+      stroke(0);
+      fill(255, 53, 139);
+      ellipse(400, 200, 200, 200);
+
+      // circle 3
+      fill(1, 176, 240);
+      ellipse(400, 200, 100, 100);
+
+      // circle 4
+      fill(174, 238,0);
+      ellipse(400, 200, 50, 50);
+
+    }
+  </script>
+
+</body>
+</html>
