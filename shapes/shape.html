@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+
+
+</head>
+<body>
+  <script>
+
+    function setup() {
+      createCanvas(500, 500);
+    }
+
+    function draw() {
+      background(220);
+      //quad(50, 50, 275, 75, 75, 100, 50, 75);
+      //triangle()
+      //triangle()
+      quad(100, 150, 300, 170, 275, 210, 75, 190 );
+      triangle(75, 190, 200, 203, 205, 215 );
+      triangle( 300, 105,300, 170, 235, 164);
+      text(mouseX + " " + mouseY, mouseX, mouseY);
+    }
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.1/p5.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.1/addons/p5.dom.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.1/addons/p5.sound.js"></script>
+</body>
+</html>
